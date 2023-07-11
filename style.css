@@ -39,6 +39,7 @@
     background: #E55473;
     margin-top: 15px;
     color: white;
+    border: none;
 }
 
 .second-title {
@@ -52,45 +53,280 @@
     font-size: 40px;
     font-weight: 800;
 }
-.second-para{
-color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-margin-top: 25px;
+
+.second-para {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 25px;
 }
-.flower-one{
+
+.flower-one {
     width: 464px;
-height: 538px;
-border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
-margin-left: 240px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    margin-left: 240px;
 }
-.flower-two{
+
+.flower-two {
     width: 464px;
-height: 538px;
-border-radius: 300px 300px 0px 0px;
-background: rgba(5, 151, 160, 0.15);
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
 }
-.flower-three{
+
+.flower-three {
     width: 464px;
-height: 538px;
-border-radius: 300px 300px 0px 0px;
-background: rgba(71, 125, 17, 0.15);
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
 }
-.flowers{
+
+.flowers {
     display: flex;
     margin-top: 48px;
-   gap: 25px;
+    gap: 25px;
 }
-.flower-padd-one{
-    padding: 110px 78px 76px ;
+
+.flower-padd-one {
+    padding: 110px 78px 76px;
 }
-.flower-padd-three{
+
+.flower-padd-three {
     padding: 67px 75px;
 }
-.flower-padd-two{
+
+.flower-padd-two {
     padding: 117px 47px 51px;
+}
+
+.flower-name {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 32px;
+}
+
+.pink-flower {
+    text-decoration: underline;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+
+}
+
+.service {
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-left: 240px;
+    margin-top: 128px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.service-padd {
+    margin-top: 86px;
+}
+
+.service-space {
+    margin-top: 24px;
+    color: rgba(39, 39, 39, 0.80);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    gap: 100px;
+}
+
+.discount-container {
+    width: 1922px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 128px;
+    display: flex;
+}
+
+.discount-header {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 230px;
+    padding-left: 423px;
+}
+
+.off {
+    color: #E55473;
+    ;
+}
+
+.discount-para {
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 24px;
+    padding-left: 395px;
+}
+
+.discount-btn {
+    padding: 20px 43px;
+    box-shadow: none;
+    gap: 10px;
+    border-radius: 10px;
+    background: #E55473;
+    margin-top: 25px;
+    color: white;
+    border: none;
+    margin-left: 603px;
+
+}
+
+.discount-img {
+    width: 318px;
+    height: 420px;
+    margin-right: 430px;
+    margin-top: 100px;
+}
+
+.instagram {
+    margin-top: 128px;
+    text-align: center;
+}
+
+.insta-head {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.insta-para {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.image-container {
+    display: flex;
+    gap: 25px;
+    margin-left: 238px;
+    margin-top: 45px;
+}
+
+.latest {
+    width: 1440px;
+    height: 449px;
+    border-radius: 8px;
+    background-image: url('./Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 240px;
+    margin-top: 128px;
+
+}
+
+.latest-header {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 122px;
+}
+
+.latest-para {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.latest-btn {
+    width: 150px;
+    height: 64px;
+    border-radius: 8px;
+    background: #E55473;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border: none;
+
+}
+
+#email {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: white;
+    border: none;
+
+}
+
+.latest-container {
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+    margin-left: 287px;
+    gap: 10px;
+
+}
+
+.shop {
+    width: 1922px;
+    height: 449px;
+    background: #111010;
+    margin-top: 128px;
+}
+
+.shop-head {
+    color: white;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 128px;
+    padding-left: 831px;
+}
+
+.shop-span {
+    color: #E55473;
+}
+
+.shop-para {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.shop-footer {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 32px;
+
 }
